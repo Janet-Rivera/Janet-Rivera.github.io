@@ -1,0 +1,238 @@
+ <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Listas en html</title>
+<style type="text/css">
+body header {
+	background-color: #3B95DF;
+	width: 1200px;
+	height: auto;
+	padding-top: 50px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 50px;
+	color: #FFFFFF;
+}
+body header h1 {
+	width: 800px;
+	height: 200px;
+	margin: auto;
+	text-align: center;
+	padding: 0;
+	background-color: #3B95DF;
+	font-size: 72px;
+}
+body footer h6 {
+	height: 40px;
+	color: #FFFFFF;
+	margin: auto;
+	width: 800px;
+	text-align: center;
+	font-size: 24px;
+}
+body header, body nav, body main, body footer {
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	width: 1200px;
+}
+body main section {
+	background-color: #4A606E;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	padding: 30px;
+	width: 800px;
+	color: #FFFFFF;
+}
+body nav {
+	background-color: #4A606E;
+	height: 50px;
+	color: #FFFFFF;
+}
+body main {
+	background-color: #ACD1EA;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+main section ol , main section ul{
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+body footer {
+	background-color: #4A606E;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 20px;
+	height: 60px;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.box_impar {
+	background-color: #364650;
+}
+#box_unico {
+	background-color: #99ABB5;
+	color: #364650;
+}
+#lista_1 {
+	list-style-type: decimal;
+}
+#lista_2 {
+	list-style-image: url(file:///E|/JANET/7to%20semestre/Dis.%20de%20interf.%20Graf.%20de%20usuario/sitio19488/im%C3%A1genes/rosa.png);
+}
+#menu {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#menu li {
+	width: 100px;
+	height: 25px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	background-color: #7691A2;
+	font-size: 18px;
+	color: #FFFFFF;
+	border-width: 3px;
+	border-radius: 50px;
+	border-style: solid;
+}
+#menu_2 {
+}
+#box_unico #menu_2 li {
+	list-style-type: none;
+	display: inline-block;
+	background-color: #6F8B9E;
+	margin-left: 20px;
+	padding: 10px;
+	margin-right: 20px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+#menu li a:link, #menu li a:active, #menu li a:visited {
+	color: #DFE6EB;
+	border-width: 0px;
+	text-decoration: none;
+	font-weight: bold;
+}
+#menu li a:hover {
+	color: #364650;
+	font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Listas en html&nbsp;</h1>
+</header>
+<nav>
+	 <ul id="menu">
+    <li><a href="formatos _texto.html">Formatos de texto&nbsp;</a></li>
+    <li><a href="listas.html">Listas</a>&nbsp;</li>
+    <li><a href="enlacess.html">Enlaces</a>&nbsp;</li>
+    <li><a href="tablaf.html">Tablas</a><a>&nbsp;</a></li>
+	<li><a href="imag.html">Imagenes</a></li>
+	<li><a href="audio.html">Audio</a></li>
+	<li><a href="video.html">Video</a></li>
+	  <li><a href="formulario.html">Formulario</a></li>
+</ul></nav>
+<main>
+  <section class="box_impar">
+    <h2>Lista ordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur doloribus, libero et mollitia architecto! Voluptas soluta autem obcaecati eum voluptatem esse rerum, atque, quam vero amet quidem quas consectetur dolor debitis necessitatibus repudiandae.</p>
+	  <ol>
+		  <li>Puebla </li>	
+		  <li>Veracruz</li>
+		  <li>Tabasco</li>
+		  <li>Tlaxcala</li>
+	  </ol>
+  </section>
+<!--Shortcut(section>h2+p)*5 genera 5 secciones que contienenun encabezado de nivel 2 y un parrafo
+--><section>
+	<h2>Lista desordenada&nbsp;</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, quod aspernatur ipsam officia quidem est dolore amet! Doloribus asperiores, numquam ipsam, id laudantium quasi expedita esse accusantium aut hic excepturi voluptates repellat ullam.</p>
+	<ul>
+		<li>México</li>
+		<li>España</li>
+		<li>Estados Unidos</li>
+		<li>Italia</li>
+		<li>Brasil</li>
+	</ul>
+</section>
+<section class="box_impar">
+	<h2>Lista mixta</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe voluptas, ab cum odit aut, voluptatem. Et similique, molestiae voluptatibus repellendus cum nesciunt, rerum ut? Fugit assumenda adipisci nihil voluptate illo, nisi odit beatae totam voluptatibus quas, similique nemo velit, fugiat officiis harum perferendis aliquam eos laudantium possimus.</p>
+	<ol>
+		<li>Mexico
+			<ul>
+				<li>Puebla
+					<ol>
+						<li>Atlixco</li>
+						<li>Tepeaca</li>
+						<li>Acajete</li>
+					</ol>
+				</li>	
+				<li>Veracruz</li>
+				<li>Tabasco</li>	
+			</ul>
+		</li>
+		<li>España</li>
+		<li>Estados Unidos</li>
+		<li>Italia</li>
+			<ol>
+				<li>Toscana</li>
+				<li>Roma</li>
+				<li>Venecia</li>
+		    </ol>
+		<li>Brasil</li>
+	</ol>
+</section>
+<section>
+	<h2>Lista desde dreaweaver&nbsp;&nbsp;</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nulla expedita quia ad temporibus doloremque quas impedit. Odit, accusamus. Fugiat velit fuga libero, quas possimus, aliquid eligendi in deserunt optio, id assumenda expedita at sint eaque cum ad ratione placeat adipisci dolorum iste aliquam praesentium sapiente. Doloremque rem, explicabo vitae ut tempora soluta est saepe dignissimos inventore cum commodi expedita.</p>
+	<ol id="lista_2">
+	  <li>Margaritas</li>
+	  <li>Rosas</li>
+	  <li>Claveles</li>
+    </ol>
+</section>
+<section id="box_unico">
+  <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim commodi nostrum inventore itaque, assumenda, sequi officiis nemo aspernatur eaque aliquam, harum non labore nisi laborum impedit sed eos ipsam. Fuga aperiam qui labore quibusdam. Optio dolore officia incidunt excepturi quidem porro, autem. Temporibus, ab, fugit. Dolor doloribus aut reiciendis ex veniam magnam libero expedita esse vel facere necessitatibus, fuga tempora in, possimus ut impedit odit voluptates excepturi eveniet repellat. Cumque inventore eaque, odio est, ea perferendis nulla assumenda. Iure, magnam?</p>
+  <ul id="menu_2">
+    <li><a href="http://www.amazon.com/">Amazon</a></li>
+    <li><a href="http:///www.google.com">Google</a></li>
+    <li><a href="formatos _texto.html">Formato de texto</a> </li>
+    <li><a href="../pdf/Programa asignatura v2.pdf" target="new">Programa de asignatura</a></li>
+  </ul>
+</section>
+<section>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga cupiditate, odio veritatis quos impedit est a explicabo ipsam ipsa libero amet sequi, aperiam placeat. Alias voluptates, quidem corporis odit accusamus voluptate est reprehenderit qui autem quas natus, impedit. Omnis doloribus odit nihil molestiae nobis libero harum atque, ex obcaecati accusantium.</p>
+  <ul id="lista_1">
+    <li>Maria de los Angeles</li>
+    <li> Martin Lopez</li>
+    <li>Janet Rivera</li>
+    <li>Feernando Montes&nbsp;</li>
+    <p>Este es el contenido de la etiqueta P de diseño</p>
+    <a href="http://www.marykay.com.mx"><img src="../imagenes/rosa.png" alt="" width="24" height="24" border="0"/></a>
+  </ul>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Janet Rivera Ramítrez&nbsp;</h6>
+</footer>
+</body>
+</html>
